@@ -43,9 +43,9 @@ int main()
         else if(player_throw == SCISSORS && ai_throw == ROCK)
             printf("\nROCK beats SCISSORS. YOU LOSE.\n\n");
         else if(player_throw == PAPER && ai_throw == SCISSORS)
-            printf("\nSCISSORS beats PAPER. YOU WIN.\n\n");
+            printf("\nSCISSORS beats PAPER. YOU LOSE.\n\n");
         else if(player_throw == ROCK && ai_throw == PAPER)
-            printf("\nPAPER beats ROCK. YOU WIN.\n\n");
+            printf("\nPAPER beats ROCK. YOU LOSE.\n\n");
         else {
             printf("\nDRAW! Play again.\n\n");
             draw = true;
